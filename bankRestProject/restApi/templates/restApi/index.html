@@ -1,0 +1,7 @@
+{% load static %}
+<ul>
+    {% for bank in Bank %}
+       <li>{{ bank.name }}</li>
+       <li>{{ bank.address }}</li>
+    {% endfor %}
+</ul>
